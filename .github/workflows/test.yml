@@ -1,5 +1,7 @@
-name: Dispatch update
-on: [push]
+name: Dispatch release
+on:
+  release:
+    types: [released]
 
 jobs:
   build:
