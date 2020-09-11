@@ -1,7 +1,7 @@
 name: Dispatch release
 on:
   release:
-    types: [released]
+    types: [created]
 
 jobs:
   build:
